@@ -42,6 +42,7 @@ steps:
     signingOption: 'auto'
     signingIdentity: '$(APPLE_CERTIFICATE_SIGNING_IDENTITY)'
     provisioningProfileUuid: '$(APPLE_PROV_PROFILE_UUID)'
+    args: '-allowProvisioningUpdates'
 
 - task: CopyFiles@2
   inputs:
