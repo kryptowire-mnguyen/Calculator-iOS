@@ -33,10 +33,10 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: 'iOSPipeline'
+    scheme: 'Kalculator'
     sdk: '$(sdk)'
     configuration: '$(configuration)'
-    xcWorkspacePath: '**/iOSPipeline.xcworkspace'
+    xcWorkspacePath: '**/project.xcworkspace'
     xcodeVersion: 'default'
     packageApp: true
     signingOption: 'manual'
